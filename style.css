@@ -1,0 +1,101 @@
+/* Estils per les cartes */
+article {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.5s ease; 
+    background-color:white;
+   
+    
+    
+}
+/* Agrega estilos para el mensaje del ganador */
+#resultadoCombate {
+    color: white;
+}
+
+#resultadoCombate div {
+    font-size: 16px;
+    /* Otros estilos según sea necesario */
+}
+
+#resultadoCombate div.bold {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+article.selected {
+    box-shadow: 0 0 10px 5px pink; /* Sombra rosa */
+}
+
+
+/* Estils per la interfície de joc */
+body {
+    background-image: url('fondo1.jpg');
+}
+
+
+#pokeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Altres estils i animacions es poden afegir segons les teves preferències. */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+#controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    color: #6C757D;
+    margin-bottom: 10px;
+}
+
+input[type="number"], input[type="text"] {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px; /* Añade espacio entre los botones */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#container img {
+    width: 150px;  /* Ajusta el valor según tus necesidades */
+    height: auto;
+}
+#controls-container label,
+#controls-container button {
+    color: white; /* Texto blanco */
+}
